@@ -1,0 +1,71 @@
+{
+  "_from": "moodle-rest-client",
+  "_id": "moodle-rest-client@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-O52hc4DlmVr2t0MvWsqfKXm7R7c=",
+  "_location": "/moodle-rest-client",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "moodle-rest-client",
+    "name": "moodle-rest-client",
+    "escapedName": "moodle-rest-client",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/moodle-rest-client/-/moodle-rest-client-0.1.0.tgz",
+  "_shasum": "3b9da17380e5995af6b7432f5aca9f2979bb47b7",
+  "_spec": "moodle-rest-client",
+  "_where": "/home/fabian/tuwel/play",
+  "author": {
+    "name": "Virgilio Missão Neto",
+    "email": "virgilio.missao.neto@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/virgilioneto/moodle-rest-client/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "http-debug": "^0.1.2",
+    "qs": "^6.3.0"
+  },
+  "deprecated": false,
+  "description": "Moodle REST Client",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.15",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard-jsx": "^3.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.8.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "ink-docstrap": "^1.3.0",
+    "istanbul": "^0.4.5",
+    "jsdoc": "^3.4.3",
+    "mocha": "^3.2.0",
+    "mocha-lcov-reporter": "^1.2.0",
+    "sinon": "^1.17.6",
+    "standard": "^8.6.0"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "homepage": "https://github.com/virgilioneto/moodle-rest-client#readme",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "moodle-rest-client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virgilioneto/moodle-rest-client.git"
+  },
+  "scripts": {
+    "doc": "jsdoc -t ./node_modules/ink-docstrap/template -R README.md -r ./lib"
+  },
+  "version": "0.1.0"
+}
